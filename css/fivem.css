@@ -1,0 +1,290 @@
+@import url('https://fonts.cdnfonts.com/css/gamesome');
+*{ margin:0p; padding:0px; }body{background-color: #0E0E10;background-image: url("../img/fivem.png");background-attachment: fixed;background-position: center;background-repeat: no-repeat;	background-size: cover;}#helpMenu{width: 100%;height: 44px;background-color: #151517;}#helpMenu ul{list-style: none;}#helpMenu li{display: inline-block;margin: 10px;}#helpMenu li a{text-decoration: none;color: white;}#login{background-color: #FF7100;padding: 3px;}	
+/*responsive code*/
+@media (max-width: 800px) { #login{background-color: #FF7100;padding: 3px; font-size: 11px;} #helpMenu li a{text-decoration: none;color: white;font-size: 9px;} }
+@media (max-width: 300px) { #login{background-color: #FF7100;padding: 3px; font-size: 9px;} #helpMenu li a{text-decoration: none;color: white;font-size: 9px;} }
+/*menu code*/
+
+
+.navbar-brand{
+	width:320px;
+	height:220px;
+	background-image: url("../img/logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 800px) {
+	.navbar-brand{
+		width:320px;
+		height:220px;
+		background-image: url("../img/logo.png");
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+} 
+
+
+header{width: 100%;height: 970px;/*background-color: #211B29; background-image: url('../img/fivem.png');*/}
+.navbar-brand{color: white;}
+#mask{width: 100%;height: 970px;background-color: rgba(14, 14, 16, 0.0);}
+.nav-link{color: white;}
+header h3{
+	position: relative;
+	top: 45%;
+	font-family: 'Gamesome', sans-serif;
+	color: #FF7100;
+	text-align: center;
+	font-size:22px ;
+/*
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  */
+
+}
+
+header h4{
+	position: relative;
+	top: 18%;
+	font-family: 'Droid sans' sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: ;
+	/*
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  */
+
+}
+/*body information*/
+
+#planos{
+	width: 100%;
+	height: 1350px;
+	background-color: rgba(14, 14, 16, 0.9);
+	padding: 10px;
+}
+
+
+@media (max-width: 800px) {
+	#planos{
+		width: 100%;
+		height: 2920px;
+		background-color: rgba(14, 14, 16, 0.9);
+		padding: 10px;
+	}
+}
+
+#planos h3 {
+	font-size: 24px;
+	color: #FF7100;
+	text-align: center;
+	font-family: 'Droid sans' sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 50px;
+}
+
+@media (max-width: 800px) {
+	#planos h3 {
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 50px;
+	}
+} 
+@media (max-width: 300px) {
+		#planos h3 {
+		font-size: 12px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 50px;
+	}
+  }
+
+
+.containerPlanos{
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+  .cardRecomendacao{
+  	width: 320px;
+  	height: 552px;
+  	background-color: #272A29;
+  	border-radius: 5px;
+  	margin: 10px auto;
+  }
+
+.cardRecomendacao p {
+	color: white;
+	text-align: left;
+	position: relative;
+	top: 90px;
+	left: 35px;
+}
+.cardRecomendacao h4{
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 120px;
+}
+
+
+.btn{
+	color: white;
+	margin-top:125px;
+	background-color: #FF7100;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+.btn:hover{
+background-color: #FF7100;
+}
+
+
+@media (max-width: 985px) {
+  .cardRecomendacao{
+  	width: 320px;
+  	height: 522px;
+  	background-color: #272A29;
+  	border-radius: 5px;
+  	margin: 10px 5;
+
+  }
+} 
+
+#informacao{
+	width: 100%;
+	height: auto;
+	margin-top:210px;
+	color: white;
+	/*background-color:#211B29;
+	background-image: url('../img/texturaMinecraft.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	*/
+}
+
+@media (max-width:765px) {
+#informacao{
+	width: 100%;
+	height: auto;
+	margin-top:130px;
+	/*background-color:#211B29;
+	background-image: url('../img/texturaMinecraft.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	*/
+}
+  }
+
+/*
+.mask{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(14, 14, 16, 0.5);
+}
+
+*/
+#informacao h3 {
+	text-align: center;
+	position: relative;
+	top:  0px;
+	font-size: 24px;
+	font-family:'Droid sans' sans-serif;
+	color: #FF7100;
+	font-weight: bold;
+}
+
+
+
+.col-md-4  {
+	position: relative;
+	top: 10px;
+	margin: 0px auto;
+}
+
+#informacao h4 {
+	font-family:'Droid sans' sans-serif;
+}
+#informacao p {
+	font-family:'Droid sans' sans-serif;
+}
+
+#informacao span{
+	font-family:'Droid sans' sans-serif;
+	color: #FF7100;
+
+	font-weight: bold;
+}
+
+
+#gerenciamento{
+	width: 90%;
+	height: auto;
+  border-left:2px solid white;
+	margin: 3% auto;
+	border-width: 5px;
+
+}
+#gerenciamento h4{
+		color: #FF7100;
+	font-family:'Droid sans' sans-serif;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.card-title{
+	color: #FF7100;
+	font-family:'Droid sans' sans-serif;
+}
+
+.card-text{
+	width: 100%;
+	font-family:'Droid sans' sans-serif;
+	text-align: justify;
+	color: white;
+}
+
+footer{
+	 border-top: 1px solid #FF7100;
+	 padding-top: 3%;
+
+}
+
+footer ul {
+	list-style: none;
+}
+
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+}
+
+footer ul li a{
+	color: white;
+	font-family:'Droid sans' sans-serif;
+	text-decoration: none;
+}
+footer ul li a:hover{
+color: #76B900;
+}

@@ -1,0 +1,379 @@
+*{ margin:0p; padding:0px; }body{background-color: #0E0E10;background-image: url("../img/Fundohexagno.png");background-attachment: fixed;background-position: center;background-repeat: no-repeat;	background-size: cover;}#helpMenu{width: 100%;height: 44px;background-color: #151517;}#helpMenu ul{list-style: none;}#helpMenu li{display: inline-block;margin: 10px;}#helpMenu li a{text-decoration: none;color: white;}#login{background-color: #76B900;padding: 3px;}	
+/*responsive code*/
+@media (max-width: 800px) { #login{background-color: #76B900;padding: 3px; font-size: 11px;} #helpMenu li a{text-decoration: none;color: white;font-size: 9px;} }
+@media (max-width: 300px) { #login{background-color: #76B900;padding: 3px; font-size: 9px;} #helpMenu li a{text-decoration: none;color: white;font-size: 9px;} }
+/*menu code*/
+
+.navbar-brand{
+	width:320px;
+	height:220px;
+	background-image: url("../img/logo.png");
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 800px) {
+	.navbar-brand{
+		width:320px;
+		height:220px;
+		background-image: url("../img/logo.png");
+		background-size: 50%;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+} 
+
+
+header{
+	width: 100%;height: 500px;
+	background-color: #211B29; 
+	background-image: url("../img/Fundohexagno.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-brand{
+	color: white;}
+
+
+#mask{width: 100%;
+	height: 900px;
+	/*background-color: rgba(14, 14, 16, 0.5);*/
+}
+
+.nav-link{
+	color: white;
+}
+
+
+header h3{
+	position: relative;
+	top: 2%;
+	font-family: 'Droid sans' sans-serif;
+	font-weight: bold;
+	color: #76B900;
+	text-align: center;
+}
+header h4{
+	position: relative;
+	top: 2%;
+	font-family: 'Droid sans' sans-serif;
+	font-weight: bold;
+	color: #76B900;
+	text-align: center;
+}
+/*body information*/
+
+#planos{
+	width: 100%;
+	height: 1150px;
+	background-color: rgba(14, 14, 16, 0.9);
+	padding: 10px;
+	margin-top: 7%;
+}
+
+@media (max-width: 800px) {
+	#planos{
+	width: 100%;
+	height: 2900px;
+	background-color: rgba(14, 14, 16, 0.9);
+	padding: 10px;
+	margin-top: 7%;
+}
+} 
+#planos h3 {
+	font-size: 24px;
+	color: #76B900;
+	text-align: center;
+	font-family: 'Droid sans' sans-serif;
+	font-weight: bold;
+	position: relative;
+	top: 50px;
+}
+
+@media (max-width: 800px) {
+	#planos h3 {
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 50px;
+	}
+} 
+@media (max-width: 300px) {
+		#planos h3 {
+		font-size: 12px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 50px;
+	}
+  }
+
+
+.containerPlanos{
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+  .cardRecomendacao{
+  	width: 320px;
+  	height: 552px;
+  	background-color: #272A29;
+  	border-radius: 5px;
+  	margin: 10px auto;
+  }
+  
+
+
+.cardRecomendacao p {
+	color: white;
+	text-align: left;
+	position: relative;
+	top: 90px;
+	left: 35px;
+}
+.cardRecomendacao h4{
+		font-size: 18px;
+		color: white;
+		text-align: center;
+		font-family: 'Droid sans' sans-serif;
+		font-weight: bold;
+		position: relative;
+		top: 120px;
+}
+
+
+.btn{
+	color: white;
+	margin-top:125px;
+	background-color: #76B900;
+}
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+.btn:hover{
+background-color: #76B900;
+}
+
+@media (max-width: 985px) {
+  .cardRecomendacao{
+  	width: 320px;
+  	height: 622px;
+  	background-color: #272A29;
+  	border-radius: 5px;
+  	margin: 10px 5;
+
+  }
+} 
+
+
+#informacaoHardware{
+ margin-top: 50px;
+}
+
+.containerInformacoes{
+	margin: 70px auto;
+}
+#informacaoHardware h3
+{
+	text-align: center;
+	font-family:'Droid sans' sans-serif;
+	color: #76B900;
+}
+
+#informacaoHardware h4 {
+	font-family:'Droid sans' sans-serif;
+	color: #76B900;
+	text-align: center;
+}
+#informacaoHardware p {
+	font-family:'Droid sans' sans-serif;
+	color: white;
+}
+
+#informacaoHardware span{
+		font-family:'Droid sans' sans-serif;
+	color: #76B900;
+	font-weight: bold;
+}
+
+
+#informacao{
+	width: 100%;
+	height: 500px;
+	margin-top: -210px;
+	background-color:#211B29;
+	color: white;
+	background-image: url('../img/bannerGames2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+@media (max-width: 784px) {
+#informacao{
+	width: 100%;
+	height: 500px;
+	margin-top:110px;
+	background-color:#211B29;
+	color: white;
+	background-image: url('../img/bannerGames2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+}
+} 
+
+.mask{
+	width: 100%;
+	height: 500px;
+	background-color: rgba(14, 14, 16, 0.5);
+}
+
+
+#slogan h3 {
+	text-align: center;
+	position: relative;
+	top:  215px;
+	font-size: 24px;
+	font-family:'Droid sans' sans-serif;
+	color: #76B900;
+	font-weight: bold;
+}
+
+
+
+.col-md-4  {
+	position: relative;
+	top: 10px;
+	margin: 0px auto;
+}
+
+footer{
+	 border-top: 1px solid #76B900;
+	 padding-top: 5%;
+	 margin-top: 5%;
+
+}
+
+
+footer ul {
+	list-style: none;
+}
+
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+}
+
+footer ul li a{
+	color: white;
+	font-family:'Droid sans' sans-serif;
+	text-decoration: none;
+}
+footer ul li a:hover{
+color: #76B900;
+}
+
+#jogos{
+	width: 100%;
+	padding: 10px;
+	margin-top: 1%;
+
+}
+
+
+#jogos h3{
+position: relative;
+top: 5%;
+text-align: center;
+font-family:'Droid sans' sans-serif;
+color: #76B900;
+margin-bottom: 5%;
+
+}
+.botao{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/botaoMinecraft.png');
+	transition: transform 0.8s;
+		margin: 0px auto;
+}
+
+.botao:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/minecraftColorido.png');
+
+	transform: rotateY(360deg);
+
+
+}
+
+
+.botaoFivem{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/botaoFivem.png');
+	transition: transform 0.8s;
+	margin: 0px auto;
+
+
+}
+
+.botaoFivem:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/fivemColorido.png');
+	transform: rotateY(360deg);
+
+}
+
+.botaoCS{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/botaoCS.png');
+	transition: transform 0.8s;
+	margin: 0px auto;
+
+}
+
+.botaoCS:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/csColorido.png');
+
+	transform: rotateY(360deg);
+
+}
+
+.botaoMTA{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/botaoMTA.png');
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	margin: 0px auto;
+
+}
+
+.botaoMTA:hover{
+	width: 100px;
+	height: 100px;
+	background-image: url('../img/mtaColorido.png');
+	transform: rotateY(340deg);
+	
+	}
+
